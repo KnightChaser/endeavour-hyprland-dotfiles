@@ -1,0 +1,19 @@
+# .gitignore
+
+# Ignore everything
+*
+
+# Allow directories to be considered
+!*/
+!.gitignore
+
+# Specificially allow
+!hypr/
+!hypr/**
+!waybar/
+!waybar/**
+
+# Ignore nvim directory and everything underneath
+# because it's controlled by a different git repository
+nvim/
+nvim/**
